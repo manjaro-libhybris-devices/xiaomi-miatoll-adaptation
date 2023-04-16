@@ -28,7 +28,7 @@ package() {
     mkdir -p "${pkgdir}/usr/lib/sysusers.d/"
     install -Dm644 "${srcdir}/xiaomi-miatoll-adaptation/android.conf" -t "${pkgdir}/usr/lib/sysusers.d/"
 
-    install -Dm644 "${srcdir}/xiaomi-miatoll-adaptation/droid-vendor-overlay" -t "${pkgdir}/usr/lib/"
+    cp -r "${srcdir}/xiaomi-miatoll-adaptation/droid-vendor-overlay" -t "${pkgdir}/usr/lib/"
 
     mkdir -p ${pkgdir}/etc/phosh/
     install -Dm644 "${srcdir}/xiaomi-miatoll-adaptation/phoc.ini" -t "${pkgdir}/etc/phosh/"
