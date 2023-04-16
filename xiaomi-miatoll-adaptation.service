@@ -1,0 +1,9 @@
+[Unit]
+Description=xiaomi miatoll adaptation service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/xiaomi-miatoll-adaptation
+
+[Install]
+WantedBy=default.target
