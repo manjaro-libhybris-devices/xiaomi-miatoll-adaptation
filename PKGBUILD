@@ -1,8 +1,8 @@
 # Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
 
 pkgname=xiaomi-miatoll-adaptation
-provides=(halium9-post-install)
-conflicts=(halium9-post-install)
+provides=(halium10-post-install)
+conflicts=(halium10-post-install)
 pkgver=1$(date +%y%m%d)
 pkgrel=1
 pkgdesc="Manjaro libhybris adaptation for xiaomi miatoll"
